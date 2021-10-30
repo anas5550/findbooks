@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/findbooks/static/css/main.358eff81.chunk.css",
+    "main.js": "/findbooks/static/js/main.cc007f8f.chunk.js",
+    "main.js.map": "/findbooks/static/js/main.cc007f8f.chunk.js.map",
+    "runtime-main.js": "/findbooks/static/js/runtime-main.c1cc580c.js",
+    "runtime-main.js.map": "/findbooks/static/js/runtime-main.c1cc580c.js.map",
+    "static/css/2.a2bc7d03.chunk.css": "/findbooks/static/css/2.a2bc7d03.chunk.css",
+    "static/js/2.33ea9041.chunk.js": "/findbooks/static/js/2.33ea9041.chunk.js",
+    "static/js/2.33ea9041.chunk.js.map": "/findbooks/static/js/2.33ea9041.chunk.js.map",
+    "static/js/3.89282d74.chunk.js": "/findbooks/static/js/3.89282d74.chunk.js",
+    "static/js/3.89282d74.chunk.js.map": "/findbooks/static/js/3.89282d74.chunk.js.map",
+    "index.html": "/findbooks/index.html",
+    "static/css/2.a2bc7d03.chunk.css.map": "/findbooks/static/css/2.a2bc7d03.chunk.css.map",
+    "static/css/main.358eff81.chunk.css.map": "/findbooks/static/css/main.358eff81.chunk.css.map",
+    "static/js/2.33ea9041.chunk.js.LICENSE.txt": "/findbooks/static/js/2.33ea9041.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c1cc580c.js",
+    "static/css/2.a2bc7d03.chunk.css",
+    "static/js/2.33ea9041.chunk.js",
+    "static/css/main.358eff81.chunk.css",
+    "static/js/main.cc007f8f.chunk.js"
+  ]
+}
