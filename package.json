@@ -1,6 +1,6 @@
 {
     "name": "goolebooks",
-    "homepage": "https://anas5550.github.io/googlebooks",
+    "homepage": "https://anas5550.github.io/findbooks/",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -16,6 +16,7 @@
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
         "react-icons": "^4.3.1",
+        "react-loading": "^2.0.3",
         "react-scripts": "4.0.3",
         "sweetalert2": "^11.1.9",
         "web-vitals": "^1.1.2"

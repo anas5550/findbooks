@@ -10,6 +10,7 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import "aos/dist/aos.css";
 import Swal from 'sweetalert2';
+import Loading from './Loading';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
 
   const [post, setpost]=useState([]);
   const [input, setinput] =useState("");
+  const [done, setDone] = useState(false);
 
 function getData(e){
   e.preventDefault();
@@ -32,7 +34,7 @@ function getData(e){
   }
   axios.get(`https://www.googleapis.com/books/v1/volumes?q=${input}`)
   .then((res)=>{
-    setpost(res.data.items);
+      setpost(res.data.items);
   }).catch((err)=>{
     console.log(err);
   })
@@ -61,9 +63,9 @@ const dataList = post.map((res,idx)=>{
       </div>
   </div>
 
-</>
+        </>
         
-      )
+)
       
     })
 
@@ -82,8 +84,10 @@ const dataList = post.map((res,idx)=>{
         </form>
       </div>
 
+ 
     <div className="row" >
-      {dataList}
+  
+    {dataList}
     </div>
   </div>
   );
